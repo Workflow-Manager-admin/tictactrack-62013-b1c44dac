@@ -1,0 +1,19 @@
+INFO:     Started server process [1386]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:3001 (Press CTRL+C to quit)
+INFO:     10.1.8.62:58604 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:58618 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:58626 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:58648 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:58664 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:58680 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.1.8.62:58690 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60472 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60478 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60480 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60488 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60496 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60512 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60514 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.1.8.62:60520 - "GET /openapi.json HTTP/1.1" 200 OK

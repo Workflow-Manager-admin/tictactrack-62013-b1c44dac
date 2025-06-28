@@ -1,0 +1,14 @@
+# Dockerfile for tic_tac_toe_backend
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY src ./src
+
+ENV PYTHONUNBUFFERED=1
+
+CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
